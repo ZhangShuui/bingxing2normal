@@ -4,6 +4,7 @@ using  namespace std;
 int a[100000];
 int sum=0;
 void countAll(int n){
+    sum=0;
     for (int i = 0; i < n; ++i) {
         sum+=a[i];
     }
